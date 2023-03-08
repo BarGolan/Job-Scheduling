@@ -1,0 +1,19 @@
+file type = 2 for manual initial scheduling
+round type (an int value 1 (for SPT) or 2 (for LPT))
+machine number (an int value between 1 - n)
+job number (an int value between 1 - n)
+machine 0 : speed (a double value larger than 0)	policy (an int value between 0 - 4) if policy is 4 - a priority list of job IDs
+machine 1 : speed (a double value larger than 0)	policy (an int value between 0 - 4) if policy is 4 - a priority list of job IDs
+.
+.
+.
+machine n-1 : speed (a double value larger than 0)	policy (an int value between 0 - 4) if policy is 4 - a priority list of job IDs
+job 0 processing time (a double value between 1 - 10) running machine (an int value between 0 - n-1)
+job 1 processing time (a double value between 1 - 10) running machine (an int value between 0 - n-1)
+.
+.
+.
+job n-1 processing time (a double value between 1 - 10) running machine (an int value between 0 - n-1)
+
+**Attention: for the speed value - it is imperative to write as double, for example 1.0 and not 1
+             This is the only diffence against a priority list that is not in the correct length
