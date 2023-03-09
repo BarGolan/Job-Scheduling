@@ -73,4 +73,6 @@ java Run 5 0 5 10 1
 
 ## Animation
 
-<video src=".\input7.mp4" width="640" height="360" controls></video>
+<!-- <video src="./input7.mp4" width="640" height="360" controls></video> -->
+
+![Simulator Screenshot](./archive/input7-screenshot.png)
